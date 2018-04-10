@@ -1,6 +1,8 @@
 #ifndef ARRAY_HEADER_H
 #define ARRAY_HEADER_H
 
+#include<iostream>
+
 template <typename T>
 class Array
 {
@@ -17,7 +19,14 @@ public:
 
 	T& GetItem(int index) const
 	{
-		return m_data[index];
+		if (index < 0 || index > m_size)
+		{
+			std::cout << "*ERROR AT CLASS Array - Function GetItem(int index)" << std::endl;
+			std::cout << "INDEX OUT OF BOUNDS*" << std::endl;
+			return *m_data;
+		}
+		else
+			return m_data[index];
 	}
 
 	int getSize() const
@@ -27,7 +36,13 @@ public:
 
 	void setItem(int index, T value)
 	{
-		m_data[index] = value;
+		if (index < 0 || index > m_size)
+		{
+			std::cout << "*ERROR AT CLASS Array - Function setItem(int index, T value)" << std::endl;
+			std::cout << "INDEX OUT OF BOUNDS*" << std::endl;
+		}
+		else
+			m_data[index] = value;
 	}
 private:
 	T* m_data;

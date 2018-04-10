@@ -4,11 +4,11 @@
 #include<string>
 using std::string;
 
-enum class BookType
+enum BookType
 {
-	History, // 0
-	SciFi, // 1
-	Cooking, // 2
+	History,
+	SciFi,
+	Cooking,
 	NonFiction
 };
 

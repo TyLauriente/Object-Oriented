@@ -8,16 +8,21 @@ using namespace std;
 
 int option(string question, string options[], int amount)
 {
+	/*
+	Function Purpose:
+	Pose a question with its options.
+	Recieve user input to find what
+	action they would like to take
+	*/
 	int answer;
 	//Ask Question and print options
 	cout << question << endl;
 	for (int index = 0; index < amount; ++index)
 		cout << index <<". " << options[index] << endl;
 	cout << "> ";
-
 	cin >> answer;
 
-	//Ask again until answer are from 0 - amount
+	//Ask again until answer are from 0 to amount
 	while (answer < 0 || answer > amount-1)
 	{
 		system("cls");
