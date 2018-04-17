@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26430.6
+VisualStudioVersion = 15.0.27130.2010
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "InClass Week2", "InClass Week2\InClass Week2.vcxproj", "{EB56EECA-62D2-4E09-B88D-7FFFCC2D29F7}"
 EndProject
@@ -24,5 +24,17 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F92EBC2E-4C3D-40AC-B566-EF99EA707378}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 2
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://tylauriente.visualstudio.com/
+		SccProjectUniqueName0 = InClass\u0020Week2\\InClass\u0020Week2.vcxproj
+		SccProjectName0 = InClass\u0020Week2
+		SccLocalPath0 = InClass\u0020Week2
+		SccLocalPath1 = .
 	EndGlobalSection
 EndGlobal
