@@ -1,0 +1,102 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.6
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "X", "X\X.vcxproj", "{6682BFD4-C79F-49BD-A114-6EE8FB79E8C3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Externals", "Externals", "{856ED680-E9A4-400F-ADFF-D3C492DCA608}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DirectXTK_Desktop_2017", "X\External\DirectXTK\DirectXTK_Desktop_2017.vcxproj", "{CDE5A2F9-D904-4B88-B6CA-2964E9B5DBC4}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ImGui", "X\External\ImGui\ImGui.vcxproj", "{BFF9C813-01AF-43B3-A23E-2C62F332B994}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DirectXTKAudio_Desktop_2017_Win8", "X\External\DirectXTK\Audio\DirectXTKAudio_Desktop_2017_Win8.vcxproj", "{4F150A30-CECB-49D1-8283-6A3F57438CF5}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "InClass Week3", "InClass Week3\InClass Week3.vcxproj", "{DC3F5464-9B21-45A8-A3BA-F3EFAFE3FBE9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6682BFD4-C79F-49BD-A114-6EE8FB79E8C3}.Debug|x64.ActiveCfg = Debug|x64
+		{6682BFD4-C79F-49BD-A114-6EE8FB79E8C3}.Debug|x64.Build.0 = Debug|x64
+		{6682BFD4-C79F-49BD-A114-6EE8FB79E8C3}.Debug|x86.ActiveCfg = Debug|Win32
+		{6682BFD4-C79F-49BD-A114-6EE8FB79E8C3}.Debug|x86.Build.0 = Debug|Win32
+		{6682BFD4-C79F-49BD-A114-6EE8FB79E8C3}.Release|x64.ActiveCfg = Release|x64
+		{6682BFD4-C79F-49BD-A114-6EE8FB79E8C3}.Release|x64.Build.0 = Release|x64
+		{6682BFD4-C79F-49BD-A114-6EE8FB79E8C3}.Release|x86.ActiveCfg = Release|Win32
+		{6682BFD4-C79F-49BD-A114-6EE8FB79E8C3}.Release|x86.Build.0 = Release|Win32
+		{CDE5A2F9-D904-4B88-B6CA-2964E9B5DBC4}.Debug|x64.ActiveCfg = Debug|x64
+		{CDE5A2F9-D904-4B88-B6CA-2964E9B5DBC4}.Debug|x64.Build.0 = Debug|x64
+		{CDE5A2F9-D904-4B88-B6CA-2964E9B5DBC4}.Debug|x86.ActiveCfg = Debug|Win32
+		{CDE5A2F9-D904-4B88-B6CA-2964E9B5DBC4}.Debug|x86.Build.0 = Debug|Win32
+		{CDE5A2F9-D904-4B88-B6CA-2964E9B5DBC4}.Release|x64.ActiveCfg = Release|x64
+		{CDE5A2F9-D904-4B88-B6CA-2964E9B5DBC4}.Release|x64.Build.0 = Release|x64
+		{CDE5A2F9-D904-4B88-B6CA-2964E9B5DBC4}.Release|x86.ActiveCfg = Release|Win32
+		{CDE5A2F9-D904-4B88-B6CA-2964E9B5DBC4}.Release|x86.Build.0 = Release|Win32
+		{BFF9C813-01AF-43B3-A23E-2C62F332B994}.Debug|x64.ActiveCfg = Debug|x64
+		{BFF9C813-01AF-43B3-A23E-2C62F332B994}.Debug|x64.Build.0 = Debug|x64
+		{BFF9C813-01AF-43B3-A23E-2C62F332B994}.Debug|x86.ActiveCfg = Debug|Win32
+		{BFF9C813-01AF-43B3-A23E-2C62F332B994}.Debug|x86.Build.0 = Debug|Win32
+		{BFF9C813-01AF-43B3-A23E-2C62F332B994}.Release|x64.ActiveCfg = Release|x64
+		{BFF9C813-01AF-43B3-A23E-2C62F332B994}.Release|x64.Build.0 = Release|x64
+		{BFF9C813-01AF-43B3-A23E-2C62F332B994}.Release|x86.ActiveCfg = Release|Win32
+		{BFF9C813-01AF-43B3-A23E-2C62F332B994}.Release|x86.Build.0 = Release|Win32
+		{4F150A30-CECB-49D1-8283-6A3F57438CF5}.Debug|x64.ActiveCfg = Debug|x64
+		{4F150A30-CECB-49D1-8283-6A3F57438CF5}.Debug|x64.Build.0 = Debug|x64
+		{4F150A30-CECB-49D1-8283-6A3F57438CF5}.Debug|x86.ActiveCfg = Debug|Win32
+		{4F150A30-CECB-49D1-8283-6A3F57438CF5}.Debug|x86.Build.0 = Debug|Win32
+		{4F150A30-CECB-49D1-8283-6A3F57438CF5}.Release|x64.ActiveCfg = Release|x64
+		{4F150A30-CECB-49D1-8283-6A3F57438CF5}.Release|x64.Build.0 = Release|x64
+		{4F150A30-CECB-49D1-8283-6A3F57438CF5}.Release|x86.ActiveCfg = Release|Win32
+		{4F150A30-CECB-49D1-8283-6A3F57438CF5}.Release|x86.Build.0 = Release|Win32
+		{DC3F5464-9B21-45A8-A3BA-F3EFAFE3FBE9}.Debug|x64.ActiveCfg = Debug|x64
+		{DC3F5464-9B21-45A8-A3BA-F3EFAFE3FBE9}.Debug|x64.Build.0 = Debug|x64
+		{DC3F5464-9B21-45A8-A3BA-F3EFAFE3FBE9}.Debug|x86.ActiveCfg = Debug|Win32
+		{DC3F5464-9B21-45A8-A3BA-F3EFAFE3FBE9}.Debug|x86.Build.0 = Debug|Win32
+		{DC3F5464-9B21-45A8-A3BA-F3EFAFE3FBE9}.Release|x64.ActiveCfg = Release|x64
+		{DC3F5464-9B21-45A8-A3BA-F3EFAFE3FBE9}.Release|x64.Build.0 = Release|x64
+		{DC3F5464-9B21-45A8-A3BA-F3EFAFE3FBE9}.Release|x86.ActiveCfg = Release|Win32
+		{DC3F5464-9B21-45A8-A3BA-F3EFAFE3FBE9}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CDE5A2F9-D904-4B88-B6CA-2964E9B5DBC4} = {856ED680-E9A4-400F-ADFF-D3C492DCA608}
+		{BFF9C813-01AF-43B3-A23E-2C62F332B994} = {856ED680-E9A4-400F-ADFF-D3C492DCA608}
+		{4F150A30-CECB-49D1-8283-6A3F57438CF5} = {856ED680-E9A4-400F-ADFF-D3C492DCA608}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F67BC5BB-42C5-4356-BBC0-AEA3BB58AF8B}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 6
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://tylauriente.visualstudio.com/
+		SccProjectUniqueName0 = X\\X.vcxproj
+		SccProjectName0 = X
+		SccLocalPath0 = X
+		SccLocalPath1 = .
+		SccProjectUniqueName2 = InClass\u0020Week3\\InClass\u0020Week3.vcxproj
+		SccProjectName2 = InClass\u0020Week3
+		SccLocalPath2 = InClass\u0020Week3
+		SccProjectUniqueName3 = X\\External\\DirectXTK\\Audio\\DirectXTKAudio_Desktop_2017_Win8.vcxproj
+		SccProjectTopLevelParentUniqueName3 = X.sln
+		SccProjectName3 = X/External/DirectXTK/Audio
+		SccLocalPath3 = X\\External\\DirectXTK\\Audio
+		SccProjectUniqueName4 = X\\External\\DirectXTK\\DirectXTK_Desktop_2017.vcxproj
+		SccProjectTopLevelParentUniqueName4 = X.sln
+		SccProjectName4 = X/External/DirectXTK
+		SccLocalPath4 = X\\External\\DirectXTK
+		SccProjectUniqueName5 = X\\External\\ImGui\\ImGui.vcxproj
+		SccProjectTopLevelParentUniqueName5 = X.sln
+		SccProjectName5 = X/External/ImGui
+		SccLocalPath5 = X\\External\\ImGui
+	EndGlobalSection
+EndGlobal
