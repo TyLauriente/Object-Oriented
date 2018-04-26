@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.6
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Inclass Week4", "Inclass Week4\Inclass Week4.vcxproj", "{AC50FDEB-1DC6-49C2-BF8D-B1920714AA47}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AC50FDEB-1DC6-49C2-BF8D-B1920714AA47}.Debug|x64.ActiveCfg = Debug|x64
+		{AC50FDEB-1DC6-49C2-BF8D-B1920714AA47}.Debug|x64.Build.0 = Debug|x64
+		{AC50FDEB-1DC6-49C2-BF8D-B1920714AA47}.Debug|x86.ActiveCfg = Debug|Win32
+		{AC50FDEB-1DC6-49C2-BF8D-B1920714AA47}.Debug|x86.Build.0 = Debug|Win32
+		{AC50FDEB-1DC6-49C2-BF8D-B1920714AA47}.Release|x64.ActiveCfg = Release|x64
+		{AC50FDEB-1DC6-49C2-BF8D-B1920714AA47}.Release|x64.Build.0 = Release|x64
+		{AC50FDEB-1DC6-49C2-BF8D-B1920714AA47}.Release|x86.ActiveCfg = Release|Win32
+		{AC50FDEB-1DC6-49C2-BF8D-B1920714AA47}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 2
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://tylauriente.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Inclass\u0020Week4\\Inclass\u0020Week4.vcxproj
+		SccProjectName1 = Inclass\u0020Week4
+		SccLocalPath1 = Inclass\u0020Week4
+	EndGlobalSection
+EndGlobal
